@@ -5,55 +5,111 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Mentorship</title>
     <style>
+        /* General Styles */
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
-            background: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ffffff, #f4f4f4);
             color: #333;
+            line-height: 1.6;
         }
+
         header {
-            background: #4CAF50;
+            background: #4caf50;
             color: white;
-            padding: 1rem 0;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 0.5rem 0 0;
+        }
+
+        main {
+            padding: 2rem 1rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-me {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin: 1rem 0;
             text-align: center;
         }
-        main {
-            padding: 2rem;
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        .about-me h2 {
+            font-size: 2rem;
+            color: #4caf50;
         }
-        h1 {
-            color: #4CAF50;
+
+        .about-me p {
+            font-size: 1.1rem;
+            margin: 1rem 0;
         }
+
+        .cta {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .cta a {
+            display: inline-block;
+            background: #4caf50;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding: 0.8rem 2rem;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .cta a:hover {
+            background: #3a933e;
+        }
+
         footer {
             text-align: center;
-            padding: 1rem 0;
             background: #333;
             color: white;
+            padding: 1rem 0;
             margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Business Mentorship</h1>
+        <h1>Welcome to My Mentorship Journey</h1>
+        <p>From €0 to €5000 - Let me guide you to success!</p>
     </header>
     <main>
-        <h2>Grow Your Business with Expert Guidance</h2>
-        <p>
-            Our mentorship programs provide you with the tools, knowledge, and personalized support 
-            to help you succeed in your entrepreneurial journey. Whether you’re starting out or 
-            looking to scale, we are here to help you every step of the way.
-        </p>
-        <p>
-            Join us to build a lasting foundation for your business success.
-        </p>
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>
+                A few years ago, I started with nothing but a dream. Through hard work, persistence, and smart strategies, I went from earning €0 to building a business that generates €5000 per month.  
+            </p>
+            <p>
+                Now, I'm passionate about helping others achieve their goals and unlock their full potential. Together, we can create your success story!
+            </p>
+        </section>
+        <div class="cta">
+            <a href="#contact">Start Your Journey Today</a>
+        </div>
     </main>
     <footer>
-        <p>© 2024 Business Mentorship. All Rights Reserved.</p>
+        <p>© 2024 My Business Mentorship. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
